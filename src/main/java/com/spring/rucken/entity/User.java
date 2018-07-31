@@ -18,7 +18,7 @@ public class User {
     private LocalDate dateJoined;
     private LocalDate dateOfBirth;
     private Set<Group> groups;
-
+// TODO: 31.07.2018 реализовать методы
 //    async makePassword(password: string) {
 //        const h = new hashers.PBKDF2PasswordHasher();
 //        const hash = await h.encode(password, h.salt());
