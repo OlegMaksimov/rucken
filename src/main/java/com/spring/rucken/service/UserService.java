@@ -9,4 +9,12 @@ public class UserService {
     public User createUser(User user){
         return user;
     }
+    public User loadUser(Long id){
+        return null;
+    }
+    public void deleteUser(Long id){
+
+    }
+
+
 }
