@@ -9,12 +9,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/")
+//@RequestMapping("/")
 public class defaultController {
 
-    @GetMapping()
-    public String index() {
+    @GetMapping("/")
+    public ModelAndView index() {
         Map<String,String> model = new HashMap<>();
-        return "index";
+        return new ModelAndView("index",model);
     }
 }
